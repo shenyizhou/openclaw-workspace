@@ -1,0 +1,29 @@
+# 隐私相关文件
+IDENTITY.md
+USER.md
+MEMORY.md
+memory/
+error-logs/
+
+# 配置文件
+.openclaw/
+.pi/
+.env
+.env.local
+.env.*.local
+
+# 系统文件
+.DS_Store
+*.log
+
+# 依赖
+node_modules/
+*/node_modules/
+
+# 构建产物
+dist/
+build/
+
+# 临时文件
+tmp/
+temp/
