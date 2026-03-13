@@ -207,6 +207,29 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 🔍 Self-Improvement - 持续改进
+
+**遇到问题时的标准流程：**
+
+1. **记录问题** - 使用 `error-log-template.md` 模板记录详细信息
+2. **分析原因** - 找出问题的根本原因
+3. **尝试解决** - 多种方法尝试，记录每次尝试的结果
+4. **总结经验** - 把学到的教训记录下来
+5. **更新文档** - 必要时更新 AGENTS.md、TOOLS.md 或相关技能
+
+**什么时候应该记录：**
+
+- 命令执行失败时
+- 用户纠正我的错误时
+- 遇到意外结果时
+- 找到更好的做事方法时
+- 学到新知识时
+
+**改进记录位置：**
+- 日常记录：`memory/YYYY-MM-DD.md`
+- 详细错误记录：`error-logs/YYYY-MM-DD-描述.md`（使用模板）
+- 长期改进：更新到 AGENTS.md 或相关技能文档
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
