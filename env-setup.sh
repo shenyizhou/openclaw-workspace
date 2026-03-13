@@ -16,6 +16,11 @@ fi
 # 配置 nvm Node.js 镜像源
 export NVM_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node/
 
+# 确保使用 Node.js LTS 版本
+if command -v nvm &> /dev/null; then
+    nvm use --lts > /dev/null 2>&1
+fi
+
 # 配置 npm 镜像源
 echo "📦 配置 npm 镜像源..."
 npm config set registry https://registry.npmmirror.com
