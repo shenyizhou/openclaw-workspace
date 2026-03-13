@@ -245,22 +245,6 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
-## Package Manager - 使用 pnpm
-
-**重要规则：所有 npm 命令都用 pnpm 替代！**
-
-- `npm install` → `pnpm install`
-- `npm install -g` → `pnpm add -g`
-- `npm run` → `pnpm`
-- `npm update` → `pnpm update`
-- 等等...
-
-**为什么用 pnpm？**
-- 更快的安装速度
-- 节省磁盘空间（使用硬链接和符号链接）
-- 更好的依赖管理
-- 已经配置好国内镜像源
-
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
