@@ -1,0 +1,6 @@
+[submodule "mj-project/web-mj"]
+	path = mj-project/web-mj
+	url = https://github.com/shenyizhou/web-mj.git
+[submodule "mj-project/express-mj"]
+	path = mj-project/express-mj
+	url = https://github.com/shenyizhou/express-mj.git
